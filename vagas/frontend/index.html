@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exposição de Vagas</title>
+</head>
+<body>
+  <header>
+    <h1>Vagas</h1>
+  </header>
+  <main>
+    <div>
+      <span>Digite o id da vaga escolhida</span>
+      <input type="number" id="vagaID" placeholder="Escolha o id da vaga" />
+      <button onclick="choose()">Escolher</button>
+    </div>
+    <div>
+      <h3>Vaga escolhida:</h3>
+      <table id="vagaEscolhida"></table>
+    </div>
+    <table id="tabela">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Empresa</th>
+          <th>Oportunidade</th>
+          <th>Tipo</th>
+          <th>Salário</th>
+        </tr>
+      </thead>
+    </table>
+  </main>
+  
+  <script src="script.js"></script>
+
+</body>
+</html>
